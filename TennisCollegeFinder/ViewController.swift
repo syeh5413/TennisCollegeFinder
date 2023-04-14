@@ -8,6 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var RatingTextField: UITextField!
+    var colleges : [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
