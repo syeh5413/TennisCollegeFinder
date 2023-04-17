@@ -9,14 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var RatingTextField: UITextField!
+    @IBOutlet weak var ratingTextField: UITextField!
     var colleges : [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
 
