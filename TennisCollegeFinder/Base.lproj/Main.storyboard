@@ -44,7 +44,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="d5d-bc-3hJ"/>
                     <connections>
-                        <outlet property="ratingTextField" destination="7g1-gt-Uhd" id="1bR-xz-Xec"/>
+                        <outlet property="scoreTextField" destination="7g1-gt-Uhd" id="p2t-Pq-bz2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

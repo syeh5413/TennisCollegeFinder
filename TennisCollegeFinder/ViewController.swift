@@ -9,18 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var ratingTextField: UITextField!
+    @IBOutlet weak var scoreTextField: UITextField!
     var colleges: [String] = []
-    var rating: Double?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if let ratingText = ratingTextField.text {
-            rating = Double(ratingText)
-        }
-        
-        print(rating)
     }
     
     
