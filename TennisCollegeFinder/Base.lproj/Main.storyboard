@@ -29,6 +29,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="See  your College"/>
                                 <connections>
+                                    <action selector="whenCollegeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U7Y-w5-wBO"/>
                                     <segue destination="NVd-No-1qV" kind="show" id="TP0-w4-70F"/>
                                 </connections>
                             </button>
