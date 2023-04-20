@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var scoreTextField: UITextField!
     @IBOutlet weak var sentenceLabel: UILabel!
     @IBOutlet weak var collegeImage: UIImageView!
-    var collegeScores = ["Princeton": 1460...1570,
+    var collegeScores = ["Princeton": 1460...1600,
                          "University of Miami": 1300...1460,
                          "Illinois State": 1000...1200]
     
