@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func whenCollegeButtonPressed(_ sender: Any) {
-        if let scoreText = scoreTextField.text, let score = Double(scoreText) {
+        if let scoreText = scoreTextField.text, let score = Int(scoreText) {
             for (collegeName, scoreRange) in collegeScores {
                 if scoreRange.contains(Int(score)) {
                     sentenceLabel.text = "Congrats! Based on your score of \(score), you qualify for \(collegeName)."
