@@ -13,7 +13,6 @@
 		319012A229DF1A1B00D85775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319012A029DF1A1B00D85775 /* Main.storyboard */; };
 		319012A429DF1A1E00D85775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319012A329DF1A1E00D85775 /* Assets.xcassets */; };
 		319012A729DF1A1E00D85775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319012A529DF1A1E00D85775 /* LaunchScreen.storyboard */; };
-		319012AF29DF271700D85775 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319012AE29DF271700D85775 /* ChoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		319012A329DF1A1E00D85775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		319012A629DF1A1E00D85775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		319012A829DF1A1E00D85775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		319012AE29DF271700D85775 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				3190129A29DF1A1B00D85775 /* AppDelegate.swift */,
 				3190129C29DF1A1B00D85775 /* SceneDelegate.swift */,
 				3190129E29DF1A1B00D85775 /* ViewController.swift */,
-				319012AE29DF271700D85775 /* ChoiceViewController.swift */,
 				319012A029DF1A1B00D85775 /* Main.storyboard */,
 				319012A329DF1A1E00D85775 /* Assets.xcassets */,
 				319012A529DF1A1E00D85775 /* LaunchScreen.storyboard */,
@@ -144,7 +141,6 @@
 				3190129F29DF1A1B00D85775 /* ViewController.swift in Sources */,
 				3190129B29DF1A1B00D85775 /* AppDelegate.swift in Sources */,
 				3190129D29DF1A1B00D85775 /* SceneDelegate.swift in Sources */,
-				319012AF29DF271700D85775 /* ChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
