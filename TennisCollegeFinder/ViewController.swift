@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func whenCollegeButtonPressed(_ sender: Any) {
+    func findCollege(scoreText: Int) {
         if let scoreText = scoreTextField.text, let score = Int(scoreText) {
             for (collegeName, scoreRange) in collegeScores {
                 if scoreRange.contains(Int(score)) {
@@ -69,6 +69,10 @@ class ViewController: UIViewController {
         } else {
             sentenceLabel.text = "You entered an invalid score."
         }
+
+    }
+    
+    @IBAction func whenCollegeButtonPressed(_ sender: Any) {
+        findCollege(scoreText: 400)
     }
 }
-
